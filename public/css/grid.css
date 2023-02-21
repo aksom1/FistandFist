@@ -1,0 +1,17 @@
+
+.grid-container{
+    display: flex;
+    /* grid-template-columns: auto auto auto auto;
+    /* gap: 20px; */
+    column-gap: 20px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    justify-content: space-between;
+
+}
+/* .grid-item{
+    padding: 20px;
+} */
+

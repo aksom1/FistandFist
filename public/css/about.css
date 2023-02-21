@@ -1,0 +1,72 @@
+#about{
+    margin: 10px;
+    background-color: aquamarine;
+}
+.about-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    /* padding-bottom: 10px; */
+    /* background-color: rgb(134, 91, 35); */
+}
+.about-title h2{
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+.about-title p{
+    font-size: 15px;
+}
+.grid-container .grid-item img{
+    width: 300px;
+   
+}
+.about-data{
+    padding-left: 30%;
+
+    /* background-color: rgb(46, 82, 82); */
+}
+.about-data p{
+    font-size: 20px;
+}
+ 
+.about-data button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(225, 75, 75);
+}
+.about-data button:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+
+.slider{    
+    width: 800px;
+    height: 400px;
+    background: url(jj.jpg);
+    /* background-color: #ff7777; */
+    background-position: center;
+    margin: 100px auto;
+    border: 1px solid #6d3636;
+    animation: slide 1s infinite;
+    border-radius: 20px;
+
+}
+
+@keyframes slide{
+25%{
+    background-color: #ff7777;
+}
+50%{
+    /* background-color: #15d503; */
+}
+75%{
+    background-color: #1b70e0;
+}
+
+}

@@ -1,0 +1,30 @@
+.hero img{
+    width: 300px;
+}
+
+.title{
+    font-size: 50px;
+    line-height: 150%;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.discription{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.group-btn button{
+    padding: 10px 20px;
+    background-color: rgb(225, 75, 75);
+    color: white;
+    font-weight: 300px;  
+    border: none;
+    border-radius: 5px;
+}
+.group-btn button:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+
