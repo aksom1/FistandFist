@@ -8,12 +8,7 @@
     background-color: beige;
 
  }
- .hero{
-    width: 100%;
-    height: 60vh;
-    background-image: linear-gradient(to right, #144272, #3875c5);
-
- }
+ 
  header{
     display: flex;
     align-items: center;
@@ -25,11 +20,12 @@
     background-color: rgb(4, 101, 150);
     background: #205295;
  }
- /* nav{
+ nav{
     display: flex;
     align-items: center;
  
- } */
+ }
+
  header .logo a{
     color: white;
     text-decoration: none;
@@ -78,6 +74,14 @@ header a button:hover{
     outline-offset: 1;
 }
 
+.grp-btn{
+    margin-left: 50px;
+}
+.grp-btn .navbtn{
+    background-color: white;
+    color: #144272;
+}
+
 
 .menu{
     display: none;
@@ -109,6 +113,9 @@ header a button:hover{
     }
    
     nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         position: absolute;
         top: 80px;
         left: 0;

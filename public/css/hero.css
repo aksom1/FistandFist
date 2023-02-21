@@ -1,22 +1,33 @@
-.hero img{
-    width: 300px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+#hero-section {
+    height: 60vh;
+    background-image: linear-gradient(to right, #144272, #3875c5);
+
+ }
+ #hero-section .content {
+    /* width: 200px; */
+    text-align: center;
+ }
 .title{
     color: white;
     font-size: 50px;
-    line-height: 150%;
+    font-family: 'Poppins', sans-serif;
+    /* line-height: 150%; */
 }
 .subtitle{
     color: white;
     font-size: 30px;
-    font-weight: 500;
-    margin-top: 40px;
+    font-weight: 400;
+    /* margin-top: 40px; */
+    font-family: 'Poppins', sans-serif;
 }
-.discription{
+.description{
+    /* width: 400px; */
     color: white;
     padding-bottom: 20px;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .group-btn button{
     padding: 10px 20px;
@@ -78,7 +89,7 @@
     .group-btn button{
         font-size: 12px;
     }
-
+}
 
 @media only screen and (max-width: 560px) {
     .title{

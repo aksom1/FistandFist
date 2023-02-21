@@ -1,14 +1,15 @@
 
 .grid-container{
     display: flex;
-    grid-template-rows: auto auto auto auto;
+    /* grid-template-rows: 50% 50%; */
+    grid-template: 400px 400px / 1fr 1fr;
     gap: 20px;
     column-gap: 20px;
-    /* background-color: #2196F3; */
+    background-color: #2196F3;
     padding: 10px;
     margin-left: 10%;
     margin-right: 10%; 
-    /* justify-content: space-between; */
+
 
 }
 .grid-item{
