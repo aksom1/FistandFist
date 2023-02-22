@@ -135,7 +135,7 @@ header a button:hover{
     nav ul{
         display: block;
         width: fit-content;
-        margin: 80px auto 0 auto;
+        margin: 0px auto 0 auto;
         transition: 0.3s;
         /* opacity: 0; */
         
